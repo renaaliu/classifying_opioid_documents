@@ -9,7 +9,7 @@ As a proof of concept, I spent the Spring 2022 semester (January to September) i
 
 ### Key Links
 - [Tobacco Industry Document Database](https://www.industrydocuments.ucsf.edu/tobacco/): Where input data (document titles) and labels (document type class) were pulled from.
-- [Proof of Concept Model Implementation on Colab](https://colab.research.google.com/drive/1_rh-ufmU_999Xfp8-42H2rbKb7qbzhNo?usp=sharing) (batch v3_title_classification_model.ipynb): Google Colab file (Python notebook) of the working NN model
+- [Proof of Concept Model Implementation on Colab](https://colab.research.google.com/drive/1hZ6dUUoT2MfJGhgG_CJ0JLhKlS4o1yON?usp=sharing) (held_out_test_v5_title_classification_model.ipynb): Google Colab file (Python notebook) of the working NN model
 - [Sample Pre-processing Colab](https://colab.research.google.com/drive/13KiLSh2RPqkSmXl8gmubdOJuh7nQQnvZ?usp=sharing) (file_pre_processing.ipynb): Google Colab file which takes a folder of samples and creates a csv of each encoded sample and its document type label (explained further in Data Collection)
 - [Google Doc of Documentation](https://docs.google.com/document/d/1bhzakiC6MqCivCSIa3mdNHHjts5luuNO/edit?usp=sharing&ouid=106298455749927186906&rtpof=true&sd=true): Contains many redudant info as this README, along with meeting notes from weekly meetings between Rena and Anqi during the Spring 2022 semester.
 
