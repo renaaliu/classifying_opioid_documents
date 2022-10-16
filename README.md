@@ -18,7 +18,7 @@ The most up-to-date Proof of Concept implementation utilizes the 500 samples of 
 
 The preprocessing Colab Python notebook takes this greater zip folder and iterates through each sample folder, pulling the ocr file and using the BERT transformer (more specifically the DistilBertTokenizerFast language model) to tokenize and encode the data of the ocr file. The encoded data (input_ids and attention_mask) is then stored in a DataFrame and then csv along with a numerical index corresponding to the sample’s document type label (for example: legal corresponding to 1, report to 2, etc.). This downloaded file is named encoded_labeled_ocrs.csv.
 
-![Histogram of distribution of classes (various document type labels) in the dataset](/images/distribution_of_doc_labels.png) "Histogram of distribution of classes (various document type labels) in the dataset") _Histogram of distribution of classes (various document type labels) in the dataset_
+![Histogram of distribution of classes (various document type labels) in the dataset](/images/distribution_of_doc_labels.png)"Histogram of distribution of classes (various document type labels) in the dataset" _Histogram of distribution of classes (various document type labels) in the dataset_
 
 Previous iterations of the linear NN were tested on tobacco industry document titles pulled from the database linked above.
 
