@@ -13,6 +13,7 @@ As a proof of concept, I spent the Spring 2022 semester (January to September) i
 - [Sample Pre-processing Colab](https://colab.research.google.com/drive/13KiLSh2RPqkSmXl8gmubdOJuh7nQQnvZ?usp=sharing) (file_pre_processing.ipynb): Google Colab file which takes a folder of samples and creates a csv of each encoded sample and its document type label (explained further in Data Collection)
 - [Google Doc of Documentation](https://docs.google.com/document/d/1bhzakiC6MqCivCSIa3mdNHHjts5luuNO/edit?usp=sharing&ouid=106298455749927186906&rtpof=true&sd=true): Contains many redudant info as this README, along with meeting notes from weekly meetings between Rena and Anqi during the Spring 2022 semester.
 - Liu Sample 500.xlsx: Excel document containing the file names for 500 OCR formatted opioid documents ("id" column) and their correponding hand-labelled document types ("Doc Type 1" column)
+- encoded_labeled_ocrs.csv: CSV document containined all 500 file samples after they have been processed by the Sample Pre-processing Colab, meaning each of the 500 OCR file samples have been encoded by the BERT language model.
 
 ### Data Collection
 The most up-to-date Proof of Concept implementation utilizes the 500 samples of opioid industry documents. These samples were provided in a zip folder of samples, with each sample consisting of its own folder labeled by id and consisting of a pdf, thumbnail png, and ocr file (ocr stands for Optical Character Recognition and is a file type consisting of the entirety of the document contents: text, images, formatting, etc.). 
